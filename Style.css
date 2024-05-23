@@ -172,6 +172,139 @@ span {
     font-weight: bold;
 
 }
+@media screen  and(min-width:601px)
+{
+    .body {
+       margin-left: 120px;
+        margin-right: 120px;
+       
+       
+    }
+
+    .frame {
+        height: 550px;
+        width: 980px;
+ 
+        display: block;
+        margin-left: auto;
+        margin-right: 120px;
+
+
+    }
+
+    .logo-txt {
+        position: absolute;
+
+        left: 215px;
+        top: 150px;
+    }
+
+    .title {
+        position: absolute;
+        display: block;
+
+        left: 480px;
+        top: 60px;
+    }
+
+
+.certificate-name {
+
+    position: absolute;
+    left: 380px;
+    top: 120px;
+
+}
+
+.certificate-of {
+
+    position: absolute;
+    left: 520px;
+    top: 190px;
+
+
+}
+
+.line {
+    left: 380px;
+}
+
+.sat {
+    left: 430px;
+}
+.sat1 {
+    
+    left: 540px;
+    
+}
+
+.certificate-TITLE {
+   
+    left: 370px;
+}
+
+.sat2 {
+   
+   left: 450px;
+}
+
+.con {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.div1 {
+
+  
+    left: 140px;
+    top: 530px;
+    color: black;
+}
+
+.name {
+    position: absolute;
+    top: -20px;
+    margin-left: 20px;
+    color: black;
+}
+
+.line1 {
+    position: absolute;
+    margin-top: -10px;
+    left: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.tit {
+    color: black;
+    font-weight: bold;
+
+}
+
+.div2 {
+    position: absolute;
+    left: 950px;
+    top: 510px;
+    color: black;
+
+}
+
+.tit1 {
+    position: absolute;
+
+    
+    color: #2d1137;
+    font-weight: bold;
+
+}
+
+}
+
 
 @media screen and (min-width: 760px) and (max-width:992px)
 /* normal devices */
