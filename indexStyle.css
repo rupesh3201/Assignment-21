@@ -175,7 +175,7 @@ span {
     color: #2d1137;
     font-weight: bold;
 }
-@media screen and (min-width: 600px)
+@media screen and (max-width: 600px)
 {
     .body {
        
@@ -184,10 +184,7 @@ span {
     }
 
     .frame {
-        height: 500px;
-        width: 900px;
-        margin-right: 800px;
-        margin-left: 50px;
+       display: none;
     }
 
     .logo-txt {
@@ -438,140 +435,6 @@ span {
 
 }
 
-@media screen and (min-width: 993px) and (max-width:1200px)
-/* normal devices */
-{
-    
-    .body {
-        margin-left: 50px;
-        padding: 0px;
-    }
-
-    .frame {
-        height: 500px;
-        width: 1000px;
-        margin-right: 800px;
-        margin-left: 50px;
-
-
-
-
-    }
-
-    .logo-txt {
-    display: none;   
-    }
-
-    .title {
-        position: absolute;
-        display: block;
-        font-size: 30px;
-        left: 510px;
-        top: 60px;
-    }
-
-
-    .certificate-name {
-
-        position: absolute;
-        left: 400px;
-        top: 125px;
-        font-size: 65px;
-
-    }
-
-    .certificate-of {
-
-        position: absolute;
-        left: 500px;
-        top: 190px;
-        font-size: 30px;
-    }
-
-    .line {
-        left: 380px;
-    }
-
-    .sat {
-        left: 420px;
-    }
-
-    .sat1 {
-        left: 540px;
-    }
-
-    .certificate-TITLE {
-
-        left: 380px;
-    }
-
-    .sat2 {
-        left: 450px;
-    }
-
-    .con {
-        display: flex;
-        align-items: center;
-
-    }
-
-    .name {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-
-    .div1 {
-        left: 120px;
-        top: 480px;
-        color: black;
-    }
-
-    .name {
-        position: absolute;
-        top: -20px;
-        margin-left: 20px;
-        color: black;
-    }
-
-    .line1 {
-        position: absolute;
-        margin-top: -10px;
-        left: 10px;
-        color: black;
-        font-weight: bold;
-    }
-    .line2
-    {
-        position: absolute;
-        margin-top: -10px;
-        left: 10px;
-        color: black;
-        font-weight: bold;
-    }
-
-    .tit {
-        color: black;
-        font-weight: bold;
-
-    }
-
-    .div2 {
-        display: flex;
-        left: 970px;
-        top: 480px;
-        color: black;
-
-    }
-
-    .tit1 {
-        position: absolute;
-
-        top: 20px;
-        color: #2d1137;
-        font-weight: bold;
-
-    }
-
-}
 
 @media screen and (min-width: 769px) and (max-width:992px)
 /* normal devices */
@@ -707,23 +570,22 @@ span {
     }
 
 }
-@media screen and (min-width: 1200px) and (max-width:1500px)
+@media screen and (min-width: 993px) and (max-width:1200px)
+/* normal devices */
 {
+    
     .body {
-        margin: 0px;
+  margin-left: 40px;
         padding: 0px;
-        
-        margin-left: 100px;
-        margin-right: auto;
-       
     }
 
     .frame {
-       
         height: 500px;
-        width: 1200px;
+        width: 1100px;
         margin-right: 800px;
-        margin-left: 50px;
+      
+
+
 
 
     }
@@ -735,48 +597,48 @@ span {
     .title {
         position: absolute;
         display: block;
-        font-size: 40px;
-        left: 600px;
-        top: 40px;
+        font-size: 30px;
+        left: 510px;
+        top: 60px;
     }
 
 
     .certificate-name {
 
         position: absolute;
-        left: 510px;
-        top: 120px;
-        font-size: 70px;
+        left: 400px;
+        top: 125px;
+        font-size: 65px;
 
     }
 
     .certificate-of {
 
         position: absolute;
-        left: 580px;
+        left: 500px;
         top: 190px;
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .line {
-        left: 510px;
+        left: 380px;
     }
 
     .sat {
-        left: 550px;
+        left: 420px;
     }
 
     .sat1 {
-        left: 670px;
+        left: 540px;
     }
 
     .certificate-TITLE {
 
-        left: 520px;
+        left: 380px;
     }
 
     .sat2 {
-        left: 600px;
+        left: 450px;
     }
 
     .con {
@@ -790,7 +652,7 @@ span {
     }
 
     .div1 {
-        left: 160px;
+        left: 50px;
         top: 480px;
         color: black;
     }
@@ -826,7 +688,7 @@ span {
 
     .div2 {
         display: flex;
-        left: 1230px;
+        left: 1030px;
         top: 480px;
         color: black;
 
@@ -842,5 +704,3 @@ span {
     }
 
 }
-
-
